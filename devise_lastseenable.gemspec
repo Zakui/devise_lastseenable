@@ -32,7 +32,6 @@ Gem::Specification.new do |s|
     "lib/devise_lastseenable/rails.rb",
     "lib/devise_lastseenable/version.rb",
     "lib/generators/devise_lastseenable/devise_lastseenable_generator.rb",
-    "lib/generators/devise_lastseenable/install_generator.rb",
     "lib/generators/devise_lastseenable/templates/migration.rb",
     "test/helper.rb",
     "test/test_devise_lastseenable.rb"
