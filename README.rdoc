@@ -9,7 +9,7 @@ authenticated.
 
 Add to your Gemfile:
 
-  gem 'devise_lastseenable'
+  gem 'devise_lastseenable', :git => 'https://github.com/Zakui/devise_lastseenable.git'
 
 
 Add the last_seen column to your database. Assuming your Devise model is 
