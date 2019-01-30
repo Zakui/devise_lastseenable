@@ -24,7 +24,6 @@ class DeviseLastseenableGenerator < Rails::Generators::NamedBase
 
 
   def create_migration_file
-    template "devise_lastseenable.rb", "config/initializers/devise_lastseenable.rb"
     migration_template 'migration.rb', "db/migrate/devise_add_lastseenable_#{name.downcase}.rb"
   end
 
