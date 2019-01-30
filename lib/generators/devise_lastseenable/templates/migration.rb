@@ -1,4 +1,4 @@
-class DeviseAddLastseenable<%= table_name.camelize.singularize %> < ActiveRecord::Migration
+class DeviseAddLastseenable<%= table_name.camelize.singularize %> < ActiveRecord::Migration[5.2]
   def self.up
     add_column :<%= table_name %>, :last_seen, :datetime
   end

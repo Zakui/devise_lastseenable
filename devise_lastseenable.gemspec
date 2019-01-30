@@ -38,7 +38,7 @@ Gem::Specification.new do |s|
   ]
   s.homepage = "http://github.com/Zakui/devise_lastseenable"
   s.licenses = ["MIT"]
-  s.rubygems_version = "2.5.1"
+  s.rubygems_version = "2.4.1"
   s.summary = "This ensures that devise will update a last_seen flag on the model whenever you check if a user is authed."
 
   if s.respond_to? :specification_version then
